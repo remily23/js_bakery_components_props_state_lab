@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const CakeContainer = () => {
 
-    const cakes = {
+    const CakeContainer = {
         cakeName: "Victoria Sponge",
         ingredients: [
             "eggs",
@@ -16,6 +16,7 @@ const CakeContainer = () => {
        rating: 5
  }
 
+ {
     cakeName: "Tea Loaf",
       ingredients: [
         "eggs",
@@ -23,10 +24,10 @@ const CakeContainer = () => {
         "dried fruit",
         "sugar",
         "self-raising flour",
-        "strong tea",
+        "strong tea"
      ],
-     price: 2,
-     rating: 3
+        price: 2,
+        rating: 3
 }
 
 {
@@ -37,18 +38,18 @@ const CakeContainer = () => {
          "oil",
          "cream cheese",
          "flour",
-         "sugar",
+         "sugar"
       ],
-      price: 8,
-      rating: 5
+        price: 8,
+        rating: 5
 } 
 
-return (
-    <>
-    <h1>Cakes</h1>
+// return (
+//     <>
+//     <h1>Cakes</h1>
     
     
-    </>
+//     </>
 
     // <>
     // const cakePTag = document.createElement("p");

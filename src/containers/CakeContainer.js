@@ -1,4 +1,4 @@
-import{ useState } from 'react';
+import { useState } from 'react';
 
 const CakeContainer = () => {
 
@@ -43,3 +43,16 @@ const CakeContainer = () => {
       rating: 5
 } 
 
+return (
+    <>
+    <h1>Cakes</h1>
+    
+    
+    </>
+
+    // <>
+    // const cakePTag = document.createElement("p");
+    // namePTag.innerText = data.cakeName.common;
+
+    // </>
+)

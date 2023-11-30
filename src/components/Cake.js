@@ -1,5 +1,0 @@
-// const Cake = ({Recipe}) => {
-
-//     return (
-//     );
-// }
